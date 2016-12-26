@@ -1,0 +1,87 @@
+{
+	"features": {
+		"userId": "user1",
+		"userInfos": {
+			"marchandsPreferes": [{
+				"id": "aHR0cDovL3d3dy5jYXJyZWZvdXIuZnIvc3RvcmVUeXBlcy9DYXJyZWZvdXI=",
+				"nom": "Carrefour"
+			}, {
+				"id": "aHR0cDovL3d3dy5jYXJyZWZvdXIuZnIvc3RvcmVUeXBlcy9DYXJyZWZvdXIlMjBDaXR5",
+				"nom": "Carrefour City"
+			}, {
+				"id": "aHR0cDovL3d3dy5ybXcuY29tL21lcmNoYW50Lzc5",
+				"nom": "Monop"
+			}, {
+				"id": "aHR0cDovL3d3dy5ybXcuY29tL21lcmNoYW50LzE4",
+				"nom": "FNAC"
+			}],
+			"magasinsPreferes": [{
+				"id": "aHR0cDovL3d3dy5jYXJyZWZvdXIuZnIvbWFnYXNpbi9haXJlLXN1ci1sYS1seXM=",
+				"nom": "Aire sur La Lys"
+			}, {
+				"id": "aHR0cDovL3d3dy5jYXJyZWZvdXIuZnIvbWFnYXNpbi9haXgtZW4tcHJvdmVuY2U=",
+				"nom": "Aix en Provence"
+			}, {
+				"id": "aHR0cDovL3d3dy5ybXcuY29tL3N0b3JlLzIy",
+				"nom": "Monop - 24 Rue de Dunkerque"
+			}, {
+				"id": "aHR0cDovL3d3dy5ybXcuY29tL3N0b3JlLzI3",
+				"nom": "FNAC - 109, rue Saint-Lazare, Passage du Havre"
+			}],
+			"universConso": [{
+				"id": "1000",
+				"libelle": "Alimentation"
+			}, {
+				"id": "1003",
+				"libelle": "Sports, Loisirs & Culture"
+			}],
+			"recherche": {
+				"rayon": 500,
+				"nbBonsPlans": 30
+			},
+			"adresse": {
+				"rue": "97, rue des jardiniers",
+				"complement": "",
+				"codePostal": "34690",
+				"commune": "FABREGUES",
+				"position": "43.556002,3.777436899999998"
+			},
+			"dateDeNaissance": "1985-01-01",
+			"genre": "f",
+			"situationFamiliale": "Celibataire",
+			"transport": {
+				"aPied": true,
+				"transportEnCommun": false,
+				"aVelo": false,
+				"enVoiture": false
+			},
+			"horaires": [{
+				"heureDebut": "07:00",
+				"heureFin": "21:00",
+				"lundi": true,
+				"mardi": true,
+				"mercredi": true,
+				"jeudi": true,
+				"vendredi": true,
+				"samedi": false,
+				"dimanche": false
+			}],
+			"sensibilites": [{
+				"idCateg": "1000",
+				"prix": true,
+				"reduction": true,
+				"ecologie": true
+			}, {
+				"idCateg": "2000",
+				"prix": true,
+				"reduction": true,
+				"ecologie": false
+			}, {
+				"idCateg": "2001",
+				"prix": true,
+				"reduction": false,
+				"ecologie": false
+			}]
+		}
+	}
+}
